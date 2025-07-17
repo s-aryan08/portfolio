@@ -1,0 +1,165 @@
+#copy{
+    text-align: center;
+}
+img {
+  border: 4px black solid;
+  border-radius: 50%;
+  height: 200px;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */ 
+}
+ul {
+  text-align: right;
+  padding-right: 30px; /* optional, for spacing from the edge */
+  font-size: 138%;
+}
+
+ul li{
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+
+  padding-right: 30px;
+}
+#language {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 138%;
+}
+#text{
+  border: solid 2px rgb(3, 45, 183);
+  border-radius: 4px;
+  height: 22px;
+
+  
+}
+#email{
+  border: 2px solid yellow;
+  border-radius: 4px;
+  height: 22px;
+}
+#Phone{
+  border: 2px solid green;
+  border-radius: 4px;
+  height: 22px;
+}
+#INPUTS input{
+  margin-right: 16px;
+}
+body {
+  background: linear-gradient(50deg, #33ccff, #ff99cc, #33ccff);
+  background-size: 200% 100%;
+  animation: gradientMove 2s linear infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 10% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+/* body {
+  background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+  animation: gradientMove 6s linear infinite;
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 0%;
+  }
+  
+  100% {
+    background-position: 100% 0%;
+  }
+} */
+
+p{
+  font-size: 150%;
+  transition:margin-left 2s;
+}
+p:hover{
+  margin-left: 200px;
+}
+
+.SKILLS{
+  border: solid 2px black;
+  margin-right: 2em;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5em 1.5em;
+  border-radius: 8px;
+  transition: 2s;
+}
+.SKILLS:hover{
+  background-color: white;
+  box-shadow: 12px 12px 20px cyan;  
+}
+
+.skills-heading {
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.FRONTEND{
+  border: solid 2px black;
+  margin-right: 2em;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5em 1.5em;
+  border-radius: 8px;
+  font-size: 1.4em;
+  
+}
+.FRONTEND:hover{
+  background-color: white;
+}
+.front {
+  font-size: 2.2em;
+  line-height: 1.2;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.backend {
+  font-size: 2.2em;
+  line-height: 1.2;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+p,
+#INPUTS input,
+span,
+li,
+.contact-info {
+  font-size: 1.3em;
+}
+
+#INPUTS input {
+  height: 32px;
+  font-size: 1.1em;
+}
+
+contact-info {
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+#copy{
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+
+img{
+  transition: 1s;
+}
+img:hover{
+  box-shadow: 0 0 30px 10px cyan;
+}
+h1:hover{
+  text-shadow: 0 0 10px cyan;
+  transition: text shadow 0.4s;
+}
